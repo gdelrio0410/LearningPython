@@ -17,3 +17,6 @@ print(edad)
 
 ########
 print("hola mi nombre es: {} {} y mi web es: {} y {}".format(nombre, apellido, web, edad))
+
+#ordenando el orden de las variables para el formato
+print("hola mi nombre es: {a} {c} y mi web es: {b} y {d}".format( a=nombre, b=apellido, c=web, d=edad))
